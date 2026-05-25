@@ -9,6 +9,7 @@ body{
     color: #FFFFFF; /*WHITE*/
     background: url("../images/pizza.jpg");
     background-size: cover;
+    height: 100vh;
 }
 
 h1{
@@ -51,4 +52,13 @@ li{
 
 .link-menu:hover{
     border-bottom: 5px blueviolet solid;
+}
+
+footer{
+     background: rgba(0,0,0,0.5);
+     padding: 16px;
+     text-align: center;
+     position: absolute;
+     bottom: 0;
+     width: 100%;
 }
